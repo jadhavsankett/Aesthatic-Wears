@@ -1,5 +1,5 @@
 import React from "react";
-import "./brutalSection.css";
+import "./BrutalSection.css";
 
 export default function BrutalSection() {
   const handleArrowClick = () => {
