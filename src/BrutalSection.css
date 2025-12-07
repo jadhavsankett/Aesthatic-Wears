@@ -1,0 +1,234 @@
+.brutal-section {
+  background: #111827;
+  color: #ffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+/* TOP STRIP ---------------------------------------------------------- */
+
+.brutal-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 50px 6vw 30px;
+}
+
+.brutal-title {
+  font-size: clamp(3.0rem, 10vw, 5.0rem);
+  letter-spacing: 0.08em;
+  font-weight: 800;
+}
+
+/* Arrow in the top right */
+.brutal-arrow {
+  width: 70px;
+  height: 70px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+}
+
+.brutal-arrow span {
+  position: absolute;
+  inset: 10px;
+  border-top: 6px solid #ffffff;
+  border-right: 6px solid #ffffff;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease-out;
+}
+
+.brutal-arrow:hover span {
+  transform: rotate(45deg) translate(4px, -4px);
+}
+
+/* SUB ROW ------------------------------------------------------------ */
+
+.brutal-subrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 6vw 24px;
+  gap: 24px;
+}
+
+.brutal-copy {
+  max-width: 520px;
+}
+
+.brutal-subtitle {
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0 0px;
+}
+
+.brutal-starline {
+  font-size: 0.8rem;
+  margin-top: 16px;
+  line-height: 1.5;
+}
+
+.brutal-star {
+  font-size: 1.1rem;
+  margin-right: 6px;
+}
+
+.brutal-dates {
+  font-size: 1.1rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* IMAGE -------------------------------------------------------------- */
+
+.brutal-image-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+
+.brutal-image-wrap img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: top;
+  max-height: 380px;
+}
+
+/* FOOTER QUOTE ------------------------------------------------------- */
+
+.brutal-footer {
+  padding: 18px 6vw 28px;
+  background: #050816;
+  color: #f9fafb;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* RESPONSIVE --------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  .brutal-top {
+    padding-inline: 5vw;
+  }
+
+  .brutal-subrow {
+    padding-inline: 5vw;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .brutal-dates {
+    margin-top: 10px;
+  }
+
+  .brutal-footer {
+    padding-inline: 5vw;
+  }
+}
+
+
+/* TABLETS */
+@media (max-width: 900px) {
+  .brutal-top {
+    padding: 40px 5vw 24px;
+  }
+
+  .brutal-title {
+    font-size: 3.2rem;
+  }
+
+  .brutal-dates {
+    font-size: 1rem;
+  }
+}
+
+/* TABLETS & LARGE PHONES */
+@media (max-width: 768px) {
+  .brutal-top {
+    padding-inline: 5vw;
+  }
+
+  .brutal-subrow {
+    padding-inline: 5vw;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .brutal-title {
+    font-size: 2.5rem;
+  }
+
+  .brutal-arrow {
+    width: 55px;
+    height: 55px;
+  }
+
+  .brutal-image-wrap img {
+    max-height: 300px;
+  }
+
+  .brutal-footer {
+    padding-inline: 5vw;
+    font-size: 0.85rem;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 520px) {
+  .brutal-top {
+    padding: 30px 5vw 20px;
+  }
+
+  .brutal-title {
+    font-size: 2rem;
+  }
+
+  .brutal-arrow {
+    width: 50px;
+    height: 50px;
+  }
+
+  .brutal-copy {
+    max-width: 100%;
+  }
+
+  .brutal-subtitle {
+    font-size: 0.78rem;
+  }
+
+  .brutal-starline {
+    font-size: 0.78rem;
+  }
+
+  .brutal-dates {
+    font-size: 0.95rem;
+  }
+
+  .brutal-image-wrap img {
+    max-height: 240px;
+  }
+}
+
+/* VERY SMALL DEVICES */
+@media (max-width: 380px) {
+  .brutal-title {
+    font-size: 1.7rem;
+  }
+
+  .brutal-arrow {
+    width: 42px;
+    height: 42px;
+  }
+
+  .brutal-footer {
+    font-size: 0.78rem;
+  }
+}

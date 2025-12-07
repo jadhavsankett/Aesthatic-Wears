@@ -1,0 +1,269 @@
+/* LOVE SECTION */
+.love-section {
+  padding: 60px 6px 40px;
+  background: #050816;
+  color: #f9fafb;
+}
+
+.love-text {
+  margin-bottom: 32px;
+  padding: 0 50px;
+}
+
+.love-kicker {
+  font-size: 1.6rem;
+  opacity: 0.9;
+}
+
+.love-heading {
+  font-size: 2.2rem;
+  margin-top: 6px;
+}
+
+.love-heading span {
+  color: #c2ff3d;
+}
+
+/* WRAPPER */
+.love-cards-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.love-arrow {
+  border: none;
+  border-radius: 999px;
+  width: 36px;
+  height: 36px;
+  background: #111827;
+  color: #f9fafb;
+  cursor: pointer;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+}
+
+.love-arrow:hover {
+  opacity: 1;
+}
+
+/* SCROLL CARDS */
+.love-cards {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding: 6px 4px 10px;
+  scroll-snap-type: x mandatory;
+}
+
+.love-cards::-webkit-scrollbar {
+  display: none;
+}
+
+/* CARD — increased width & height */
+.love-card {
+  scroll-snap-align: start;
+  min-width: 280px;
+  max-width: 340px;
+  height: 320px;              /* overall card height increased */
+  background: #111827;
+  border-radius: 1.1rem;
+  padding: 20px 18px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+/* FEATURED */
+.love-card--featured {
+  background: #c2ff3d;
+  color: #020617;
+  position: relative;
+  overflow: hidden;
+}
+
+.love-card--featured::before {
+  content: "";
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.4);
+  top: -90px;
+  right: -70px;
+  opacity: 0.6;
+}
+
+/* TEXT */
+.love-card-top h3 {
+  font-size: 1.05rem;
+  margin-bottom: 6px;
+}
+
+.love-card-top p {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+/* IMAGE — bigger height */
+.love-card-image-wrap {
+  border-radius: 0.9rem;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
+.love-card-image-wrap img {
+  width: 100%;
+  height: 180px;              /* image taller now */
+  object-fit: cover;
+  display: block;
+}
+
+/* FOOTER */
+.love-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.love-card-line {
+  width: 30px;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+  display: inline-block;
+}
+
+.love-buy-btn {
+  border: none;
+  background: #2563EB;
+  padding: 9px 16px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.love-buy-btn:hover {
+  background-color: #1e40af;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .love-section {
+    padding-inline: 5vw;
+  }
+
+  .love-heading {
+    font-size: 1.8rem;
+  }
+
+  .love-cards-wrapper {
+    gap: 8px;
+  }
+
+  .love-card {
+    min-width: 260px;
+    max-width: 300px;
+    height: 300px;
+  }
+}
+
+
+
+
+/* ---------- RESPONSIVE BREAKPOINTS ---------- */
+
+/* TABLETS */
+@media (max-width: 900px) {
+  .love-text {
+    padding: 0 20px;
+  }
+
+  .love-card {
+    min-width: 260px;
+    max-width: 300px;
+    height: 310px;
+  }
+}
+
+/* SMALL TABLETS & LARGE PHONES */
+@media (max-width: 768px) {
+  .love-text {
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .love-heading {
+    font-size: 1.9rem;
+  }
+
+  .love-section {
+    padding-inline: 4vw;
+  }
+
+  .love-cards-wrapper {
+    gap: 10px;
+  }
+
+  .love-arrow {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+/* MOBILE DEVICES */
+@media (max-width: 520px) {
+  .love-section {
+    padding: 40px 20px;
+  }
+
+  .love-heading {
+    font-size: 1.7rem;
+  }
+
+  .love-kicker {
+    font-size: 1.3rem;
+  }
+
+  .love-cards {
+    gap: 14px;
+  }
+
+  .love-card {
+    min-width: 230px;
+    max-width: 260px;
+    height: 290px;
+  }
+
+  .love-card-image-wrap img {
+    height: 160px;
+  }
+}
+
+/* VERY SMALL DEVICES */
+@media (max-width: 380px) {
+  .love-heading {
+    font-size: 1.5rem;
+  }
+
+  .love-card {
+    min-width: 210px;
+    max-width: 240px;
+    height: 280px;
+  }
+
+  .love-card-image-wrap img {
+    height: 140px;
+  }
+}
