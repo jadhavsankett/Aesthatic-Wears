@@ -88,6 +88,87 @@ const products = [
       "https://m.media-amazon.com/images/I/712zj0i0TyL._SY879_.jpg",
     url: "https://amzn.to/3Mo7gXp",
   },
+  //added new products 
+  {
+    id: "p9",
+    name: "Nifty Women's | Denim Stretchable Jeans",
+    price: "cheap ₹",
+    sizes: ["XS", "S", "M", "L"],
+    description: "Nifty Women's Denim Stretchable High Waist Baggy Jeans for Women",
+    image:
+      "https://m.media-amazon.com/images/I/71M+uvqdipL._SY879_.jpg",
+    url: "https://amzn.to/4iFNYst",
+  },
+   {
+    id: "p10",
+    name: "Racing Icon Black F1 Vintage Printed Jacket",
+    price: "cheap ₹",
+    sizes: ["XS", "S", "M", "L"],
+    description: "Racing Icon Black F1 Vintage Printed Jacket – Premium Streetwear & Motorsport Fashion",
+    image:
+      "https://i.pinimg.com/736x/bb/0a/3c/bb0a3cf0bd332beafadc9e302a6f16c7.jpg",
+    url: "https://amzn.to/4aAqB1s",
+  },
+   {
+    id: "p11",
+    name: "For Men's Women's Party and Daily Wear ",
+    price: "cheap ₹",
+    sizes: ["XS", "S", "M", "L"],
+    description: "EXOTIX Red & White Racing Jacket Modern Design | Adjustable & Comfortable Zip-Up Printed Jacket",
+    image:
+      "https://m.media-amazon.com/images/I/61wmxA7bDpL._SY879_.jpg",
+    url: "https://amzn.to/4oH8WZw",
+  },
+  {
+    id: "p12",
+    name: "EXOTIX Oversized Balaclava Hoodie ",
+    price: "cheap ₹",
+    sizes: ["XS", "S", "M", "L"],
+    description: "EXOTIX Oversized Balaclava Hoodie – Unisex Black Full Zip Sweatshirt with Built-in Face Cover, Warm Winter Jacket for Men & Women, Casual Travel College Streetwear",
+    image:
+      "https://m.media-amazon.com/images/I/41aADbM69GL.jpg",
+    url: "https://amzn.to/4rHcOMM",
+  },
+  {
+    id: "p13",
+    name: "Women Hooded Corduroy Crop Jacket",
+    price: "cheap ₹",
+    sizes: ["XS", "S", "M", "L"],
+    description: "SASSAFRAS Women Hooded Corduroy Crop Jacket",
+    image:
+      "https://m.media-amazon.com/images/I/71cYStQUMZL._SY879_.jpg",
+    url: "https://amzn.to/4iSECKg",
+  },
+   {
+    id: "p14",
+    name: "CAVA Sculptor Jacket for Women (Ivory)",
+    price: "cheap ₹",
+    sizes: ["XS", "S", "M", "L"],
+    description: "ADPT™ Nylon-Spandex, 4-Way Stretch, Moisture-Wicking, High Neck, Full Sleeves | Performance Activewear",
+    image:
+      "https://m.media-amazon.com/images/I/61g7OJIsqFL._SY879_.jpg",
+    url: "https://amzn.to/4oAgUDz",
+  },
+   {
+    id: "p15",
+    name: "CAVA Sculptor Jacket for Women (Black)",
+    price: "cheap ₹",
+    sizes: ["XS", "S", "M", "L"],
+    description: "ADPT™ Nylon-Spandex, 4-Way Stretch, Moisture-Wicking, High Neck, Full Sleeves | Performance Activewear",
+    image:
+      "https://m.media-amazon.com/images/I/71LulMfNksL._SY879_.jpg",
+    url: "https://amzn.to/3KxSBZc",
+  },
+  {
+    id: "p16",
+    name: "CAVA Sculptor Jacket for Women (Pink)",
+    price: "cheap ₹",
+    sizes: ["XS", "S", "M", "L"],
+    description: "ADPT™ Nylon-Spandex, 4-Way Stretch, Moisture-Wicking, High Neck, Full Sleeves | Performance Activewear",
+    image:
+      "https://m.media-amazon.com/images/I/61wGR9l01AL._SY879_.jpg",
+    url: "https://amzn.to/3KJnhGK",
+  }
 ];
 
 
