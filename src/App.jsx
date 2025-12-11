@@ -168,7 +168,68 @@ const products = [
     image:
       "https://m.media-amazon.com/images/I/61wGR9l01AL._SY879_.jpg",
     url: "https://amzn.to/3KJnhGK",
-  }
+  },
+  //added the another new products 
+  {
+    id: "p17",
+    name: "Istyle Can Women's",
+    price: "cheap ₹",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    description: "Istyle Can Women's Top Solid Long Sleeve Ribbed Asymmetric Hem Casual T-Shirt with Zipper Collar. Full Sleeve, Rib Knit, Plain, Slim Fit",
+    image:
+      "https://m.media-amazon.com/images/I/71AZKFyCQJL._SY879_.jpg",
+    url: "https://amzn.to/4oMJQs4",
+  },
+  {
+    id: "p18",
+    name: "Casual Regular Sleeves Solid Women",
+    price: "cheap ₹",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    description: "Casual Regular Sleeves Solid Women with three colors Top",
+    image:
+      "https://m.media-amazon.com/images/I/61kA8H197RL._SY879_.jpg",
+    url: "https://amzn.to/4rRXlJN",
+  },
+  {
+    id: "p19",
+    name: "Casual Regular Full Sleeves Solid Women",
+    price: "cheap ₹",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    description: "Contrast Full Sleeve Sticker Printed Top for Women",
+    image:
+      "https://m.media-amazon.com/images/I/71n7uRLQZiL._SY879_.jpg",
+    url: "https://amzn.to/48A37II",
+  },
+   {
+    id: "p20",
+    name: "Casual Regular, Retro Style Women",
+    price: "cheap ₹",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    description: "Youvig Women's History 1988 Raglan Crop Top, Long Sleeve, Retro Style",
+    image:
+      "https://m.media-amazon.com/images/I/712mjQ2itXL._SY879_.jpg",
+    url: "https://amzn.to/4oJwr43",
+  },
+   {
+    id: "p21",
+    name: "Full Sleeves Solid Women",
+    price: "cheap ₹",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    description: "Trendy Style Collections Stylecast Striped Tie-Up Neck Bell Sleeve Top for Women",
+    image:
+      "https://m.media-amazon.com/images/I/51AQ6GpyCqL.jpg",
+    url: "https://amzn.to/48D1rN2",
+  },
+  {
+    id: "p22",
+    name: " Polyester for_Casual Wear",
+    price: "cheap ₹",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    description: "S V Enterprises Women’s Apricot Drawstring Bell Sleeve Top – Polyester for_Casual Wear",
+    image:
+      "https://m.media-amazon.com/images/I/412WD2e3I1L.jpg",
+    url: "https://amzn.to/4pyqJ6s",
+  } 
 ];
 
 

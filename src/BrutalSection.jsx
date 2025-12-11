@@ -42,7 +42,7 @@ Our designs are shaped with intention — soft tones, clean lines, and silhouett
       {/* IMAGE */}
       <div className="brutal-image-wrap">
         <img
-          src="./fits.png"
+          src="../fits.png"
           alt="Brutalist architecture"
         />
       </div>
